@@ -23,9 +23,11 @@ Each permission type:
 The sum of these values gives the numeric permission for each group.
 
 Example:
+```text
 rwxrwxr-x
-↑ ↑ ↑
-7 7 5 ← (4+2+1, 4+2+1, 4+0+1)
+↑   ↑   ↑
+7   7   5   ← (4+2+1, 4+2+1, 4+0+1)
+```
 
 Numeric notation: **775**
 
@@ -97,6 +99,6 @@ Now you should see:
 ---
 
 ## 📌 Notes
-Works fully on Linux and macOS.
-On Windows, chmod support is limited by the filesystem and OS.
-Octal mode is specified as numbers like 775, 644, 700.
+- Works fully on Linux and macOS.
+- On Windows, chmod support is limited by the filesystem and OS.
+- Octal mode is specified as numbers like 775, 644, 700.
