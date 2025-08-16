@@ -98,6 +98,12 @@ Now you should see:
 
 ---
 
+## 📸 Screenshot
+
+![Screenshot](screenshot.png)
+
+---
+
 ## 📌 Notes
 - Works fully on Linux and macOS.
 - On Windows, chmod support is limited by the filesystem and OS.
